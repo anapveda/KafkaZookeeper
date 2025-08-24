@@ -9,3 +9,9 @@ should show Topic: demo     TopicId: 3EkhycSaR6-K3F8EG44eYw PartitionCount: 1   
 5. .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic veda --from-beginning
 6. push the events/messages .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic demo
 >hello   
+
+
+
+Postman URL:
+------------
+http://localhost:8085/location/update
